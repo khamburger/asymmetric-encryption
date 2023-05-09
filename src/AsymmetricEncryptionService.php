@@ -155,7 +155,7 @@ class AsymmetricEncryptionService
      * @param string $privateKey
      * @return string
      */
-    public function asymmetricDecrypt(string $data, string $privateKey, string $passphrase) : string
+    public function asymmetricDecrypt(string $data, string $privateKey, $passphrase) : string
     {
         $decrypted = '';
 
